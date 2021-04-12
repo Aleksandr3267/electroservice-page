@@ -6,6 +6,9 @@
         display: block;
         position: fixed;
     }
+    .home-lif{
+       display: block;
+    }
     /* menu id */
     #main-menu{
         position: fixed;

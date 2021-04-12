@@ -272,9 +272,19 @@ nav .nav_bar .menu li .link:hover{
 .header .home {
     background:url(../img/1bg.png) no-repeat right top / cover;
     padding: 220px 0 132px 0;
+    /* filter: brightness(40%) */
 }
 .header .home .heading {
     max-width: 800px;
+    position: relative;
+}
+.home-lif{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: none;
+    background: rgba(255, 255, 255, 0.5);
 }
 .header .home .home_submit {
     margin: 55px 0 0 0;
